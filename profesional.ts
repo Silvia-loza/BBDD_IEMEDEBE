@@ -38,7 +38,6 @@ export class Profesional {
 
          console.log(conjunto);
     }
-
-
+    //Cambio de Jorge
 
 }
