@@ -38,8 +38,12 @@ export class Profesional {
 
          console.log(conjunto);
     }
+<<<<<<< HEAD
 
     //cambio de irene
 
+=======
+    //Cambio de Jorge
+>>>>>>> a92f38aa98fd9a4d958a587ade5ad5f1c6a6db99
 
 }
