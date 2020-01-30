@@ -39,6 +39,10 @@ export class Profesional {
          console.log(conjunto);
     }
 
+    //cambio de irene
 
+    //Cambio de Jorge
+
+    //cambio de aclaración
 
 }
