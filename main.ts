@@ -1,5 +1,6 @@
 import {Profesional} from "./profesional"
 import {Pelicula} from "./pelicula"
+import {Iemedebe} from "./iemedebe"
 
 let profe1: Profesional = new Profesional("Johnny Depp", 57, "hombre", 75, 178, "castaño", "marrón", "gitanito", false, "americano", 0, "actor");
 let profe2: Profesional = new Profesional("Pedro Almodóvar", 70, "hombre", 85, 168, "blanco", "negro", "blanquito", false, "español", 2, "director");
@@ -32,7 +33,10 @@ let peli10: Pelicula = new Pelicula("Amélie", 2001, "francesa", actores1, "Jean
 
 
 
-/*profe1.mostrarValor();
+let ieme1: Iemedebe = new Iemedebe([peli3, peli5, peli7, peli10]);
+
+
+profe1.mostrarValor();
 profe2.mostrarValor();
 profe3.mostrarValor();
 profe4.mostrarValor();
@@ -41,7 +45,7 @@ profe6.mostrarValor();
 profe7.mostrarValor();
 profe8.mostrarValor();
 profe9.mostrarValor();
-profe10.mostrarValor();*/
+profe10.mostrarValor();
 
 
 peli1.mostrarDatos();
@@ -54,3 +58,6 @@ peli7.mostrarDatos();
 peli8.mostrarDatos();
 peli9.mostrarDatos();
 peli10.mostrarDatos();
+
+
+console.log(ieme1)
