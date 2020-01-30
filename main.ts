@@ -32,7 +32,7 @@ let peli10: Pelicula = new Pelicula("Amélie", 2001, "francesa", actores1, "Jean
 
 
 
-profe1.mostrarValor();
+/*profe1.mostrarValor();
 profe2.mostrarValor();
 profe3.mostrarValor();
 profe4.mostrarValor();
@@ -41,6 +41,16 @@ profe6.mostrarValor();
 profe7.mostrarValor();
 profe8.mostrarValor();
 profe9.mostrarValor();
-profe10.mostrarValor();
+profe10.mostrarValor();*/
 
 
+peli1.mostrarDatos();
+peli2.mostrarDatos();
+peli3.mostrarDatos();
+peli4.mostrarDatos();
+peli5.mostrarDatos();
+peli6.mostrarDatos();
+peli7.mostrarDatos();
+peli8.mostrarDatos();
+peli9.mostrarDatos();
+peli10.mostrarDatos();
