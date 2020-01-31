@@ -70,7 +70,35 @@ peli4.nombreProtagonista = "Woody y Buzz"
 peli4.productora = "Pixar"
 peli4.distribuidora = "Disney"
 
+peli5.actores = actores2;
+	peli5.director = "Fernando León";
+	peli5.guionista = "Ignacio del Moral";
+	peli5.idioma = "Español";
+	peli5.plataforma = "cine"; 
+	peli5.esMCU = false;
+	peli5.nombreProtagonista = "Jose Suarez"
+	peli5.productora = "Paramount";
+	peli5.distribuidora = "Paramount";
 
+	peli6.actores = actores3;
+	peli6.director = "Dani Boon";
+	peli6.guionista = "Antonio Pérez";
+	peli6.idioma = "frnacés", 
+		peli6.plataforma = "cine"; 
+	peli6.esMCU = false;
+	peli6.nombreProtagonista = "Philippe";
+	peli6.productora = "Pathé";
+	peli6.distribuidora = "Pathé";
+
+	peli7.actores = actores1;
+	peli7.director = "Stanley Kubrick";
+	peli7.guionista = "Stanley Kubrick";
+	peli7.idioma = "inglés" 
+	peli7.plataforma = "cine"; 
+	peli7.esMCU = false;
+	peli7.nombreProtagonista = "Alex";
+	peli7.productora = "Warner";
+	peli7.distribuidora =  "Warner";
 
 let ieme1: Iemedebe = new Iemedebe([peli3, peli5, peli7, peli10]);
 
