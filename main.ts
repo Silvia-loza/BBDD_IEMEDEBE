@@ -50,7 +50,7 @@ peli2.nombreProtagonista = "Vitto Corleone"
 peli2.productora = "Warner"
 peli2.distribuidora = "Warner"
 
-peli3.actores = actores1
+peli3.actores = actores3
 peli3.director = "Alex de la Iglesia"
 peli3.guionista = "Antonio Perez"
 peli3.idioma = "español"
@@ -98,7 +98,9 @@ peli5.actores = actores2;
 	peli7.esMCU = false;
 	peli7.nombreProtagonista = "Alex";
 	peli7.productora = "Warner";
-	peli7.distribuidora =  "Warner";
+    peli7.distribuidora =  "Warner";
+    
+
 
 let ieme1: Iemedebe = new Iemedebe([peli3, peli5, peli7, peli10]);
 
