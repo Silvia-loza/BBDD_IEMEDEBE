@@ -19,17 +19,56 @@ let actores3: Profesional[] = [profe7, profe3, profe6];
 
 
 
+let peli1: Pelicula = new Pelicula("Titanic", 1997, "estadounidense", "drama");
+let peli2: Pelicula = new Pelicula("El Padrino", 1972, "estadounidense", "drama");
+let peli3: Pelicula = new Pelicula("El Bar", 2017, "española", "comedia");
+let peli4: Pelicula = new Pelicula("Toy Story", 1995, "estadounidense", "comedia");
+let peli5: Pelicula = new Pelicula("Los lunes al sol", 2002, "española",);
+let peli6: Pelicula = new Pelicula("Bienvenidos al Norte", 2008, "francesa",);
+let peli7: Pelicula = new Pelicula("La naranja mecánica", 1971, "británica",);
+let peli8: Pelicula = new Pelicula("Up", 2009, "estadounidense",);
+let peli9: Pelicula = new Pelicula("La Ola", 2008, "alemana",);
+let peli10: Pelicula = new Pelicula("Amélie", 2001, "francesa",);
 
-let peli1: Pelicula = new Pelicula("Titanic", 1997, "estadounidense", actores1, "James Cameron", "James Cameron", "inglés", "cine", false, "Jack y Rose", "Universal", "Universal");
-let peli2: Pelicula = new Pelicula("El Padrino", 1972, "estadounidense", actores2, "Francis Ford Coppola", "Mario Puzo", "italiano", "cine", false, "Vitto Corleone", "Warner", "Warner");
-let peli3: Pelicula = new Pelicula("El Bar", 2017, "española", actores3, "Alex de la Iglesia", "Antonio Pérez", "español", "televisión", false, "Manola", "Atresmedia", "Atresmedia");
-let peli4: Pelicula = new Pelicula("Toy Story", 1995, "estadounidense", actores1, "John Lasseter", "Joel Cohen", "inglés", "cine", false, "Woody y Buzz", "Pixar", "Disney");
-let peli5: Pelicula = new Pelicula("Los lunes al sol", 2002, "española", actores2, "Fernando León", "Ignacio del Moral", "español", "cine", false, "José Suárez", "Paramount", "Paramount");
-let peli6: Pelicula = new Pelicula("Bienvenidos al Norte", 2008, "francesa", actores3, "Dani Boon", "Antonio Pérez", "frnacés", "cine", false, "Philippe", "Pathé", "Pathé");
-let peli7: Pelicula = new Pelicula("La naranja mecánica", 1971, "británica", actores1, "Stanley Kubrick", "Stanley Kubrick", "inglés", "cine", false, "Alex", "Warner", "Warner");
-let peli8: Pelicula = new Pelicula("Up", 2009, "estadounidense", actores2, "Pete Docter", "Bob Peterson", "inglés", "cine", false, "Carl", "Disney", "Disney");
-let peli9: Pelicula = new Pelicula("La Ola", 2008, "alemana", actores3, "Dennis Gansel", "Dennis Gansel", "alemán", "internet", false, "Rainer", "Rat Pack", "Constantin Film");
-let peli10: Pelicula = new Pelicula("Amélie", 2001, "francesa", actores1, "Jean-Pierre Jeunet", "Guillaume Laurant", "francés", "cine", false, "Amélie", "Union", "Fox");
+peli1.actores = actores1
+peli1.director = "James Cameron"
+peli1.guionista = "James Cameron"
+peli1.idioma = "Inglés"
+peli1.plataforma = "Cine"
+peli1.esMCU = false
+peli1.nombreProtagonista = "Jack y Rose"
+peli1.productora = "Universal"
+peli1.distribuidora = "Universal"
+
+peli1.actores = actores2
+peli1.director = "Francis Ford Coppola"
+peli1.guionista = "Mario Puzo"
+peli1.idioma = "italiano"
+peli1.plataforma = "Cine"
+peli1.esMCU = false
+peli1.nombreProtagonista = "Vitto Corleone"
+peli1.productora = "Warner"
+peli1.distribuidora = "Warner"
+
+peli1.actores = actores1
+peli1.director = "Alex de la Iglesia"
+peli1.guionista = "Antonio Perez"
+peli1.idioma = "español"
+peli1.plataforma = "televisión"
+peli1.esMCU = false
+peli1.nombreProtagonista = "Manola"
+peli1.productora = "Atresmedia"
+peli1.distribuidora = "Atresmedia"
+
+peli1.actores = actores1
+peli1.director = "John Lasseter"
+peli1.guionista = "Joel Cohen"
+peli1.idioma = "Inglés"
+peli1.plataforma = "Cine"
+peli1.esMCU = false
+peli1.nombreProtagonista = "Woody y Buzz"
+peli1.productora = "Pixar"
+peli1.distribuidora = "Disney"
 
 
 
@@ -45,10 +84,10 @@ profe6.mostrarValor();
 profe7.mostrarValor();
 profe8.mostrarValor();
 profe9.mostrarValor();
-profe10.mostrarValor();
+profe10.mostrarValor();*/
 
 
-peli1.mostrarDatos();
+/*peli1.mostrarDatos();
 peli2.mostrarDatos();
 peli3.mostrarDatos();
 peli4.mostrarDatos();
@@ -57,14 +96,17 @@ peli6.mostrarDatos();
 peli7.mostrarDatos();
 peli8.mostrarDatos();
 peli9.mostrarDatos();
-peli10.mostrarDatos();
+peli10.mostrarDatos();*/
 
 
-console.log(ieme1)*/
+//console.log(ieme1)
 
 var myJson = JSON.stringify(ieme1)
 
-var fs = require('fs');
-fs.writeFile("imdbBBDD.json", myJson, function(err, result) {
-    if(err) console.log('error', err);
+var miVariable = require('fs');
+miVariable.writeFile("imdbBBDD.json", myJson, function(err, result) {
+    if(err) {console.log('error', err)}
+    else{console.log("Tu archivo se ha generado correctamente")};
 })
+
+
