@@ -40,35 +40,35 @@ peli1.nombreProtagonista = "Jack y Rose"
 peli1.productora = "Universal"
 peli1.distribuidora = "Universal"
 
-peli1.actores = actores2
-peli1.director = "Francis Ford Coppola"
-peli1.guionista = "Mario Puzo"
-peli1.idioma = "italiano"
-peli1.plataforma = "Cine"
-peli1.esMCU = false
-peli1.nombreProtagonista = "Vitto Corleone"
-peli1.productora = "Warner"
-peli1.distribuidora = "Warner"
+peli2.actores = actores2
+peli2.director = "Francis Ford Coppola"
+peli2.guionista = "Mario Puzo"
+peli2.idioma = "italiano"
+peli2.plataforma = "Cine"
+peli2.esMCU = false
+peli2.nombreProtagonista = "Vitto Corleone"
+peli2.productora = "Warner"
+peli2.distribuidora = "Warner"
 
-peli1.actores = actores1
-peli1.director = "Alex de la Iglesia"
-peli1.guionista = "Antonio Perez"
-peli1.idioma = "español"
-peli1.plataforma = "televisión"
-peli1.esMCU = false
-peli1.nombreProtagonista = "Manola"
-peli1.productora = "Atresmedia"
-peli1.distribuidora = "Atresmedia"
+peli3.actores = actores1
+peli3.director = "Alex de la Iglesia"
+peli3.guionista = "Antonio Perez"
+peli3.idioma = "español"
+peli3.plataforma = "televisión"
+peli3.esMCU = false
+peli3.nombreProtagonista = "Manola"
+peli3.productora = "Atresmedia"
+peli3.distribuidora = "Atresmedia"
 
-peli1.actores = actores1
-peli1.director = "John Lasseter"
-peli1.guionista = "Joel Cohen"
-peli1.idioma = "Inglés"
-peli1.plataforma = "Cine"
-peli1.esMCU = false
-peli1.nombreProtagonista = "Woody y Buzz"
-peli1.productora = "Pixar"
-peli1.distribuidora = "Disney"
+peli4.actores = actores1
+peli4.director = "John Lasseter"
+peli4.guionista = "Joel Cohen"
+peli4.idioma = "Inglés"
+peli4.plataforma = "Cine"
+peli4.esMCU = false
+peli4.nombreProtagonista = "Woody y Buzz"
+peli4.productora = "Pixar"
+peli4.distribuidora = "Disney"
 
 
 
