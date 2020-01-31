@@ -6,7 +6,7 @@ export class Pelicula{
     nacionalidad: string;
     genero: string;
     actores: Profesional[];
-    director: string;
+    director: Profesional;
     guionista: string;
     idioma: string;
     plataforma: string;

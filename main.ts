@@ -1,4 +1,3 @@
-
 import {Profesional} from "./profesional"
 import {Pelicula} from "./pelicula"
 import {Iemedebe} from "./iemedebe"
@@ -32,7 +31,7 @@ let peli9: Pelicula = new Pelicula("La Ola", 2008, "alemana", "drama");
 let peli10: Pelicula = new Pelicula("Amélie", 2001, "francesa", "comedia");
 
 peli1.actores = actores1
-peli1.director = "James Cameron"
+peli1.director = profe2
 peli1.guionista = "James Cameron"
 peli1.idioma = "Inglés"
 peli1.plataforma = "Cine"
@@ -42,7 +41,7 @@ peli1.productora = "Universal"
 peli1.distribuidora = "Universal"
 
 peli2.actores = actores2
-peli2.director = "Francis Ford Coppola"
+peli2.director = profe4
 peli2.guionista = "Mario Puzo"
 peli2.idioma = "italiano"
 peli2.plataforma = "Cine"
@@ -52,7 +51,7 @@ peli2.productora = "Warner"
 peli2.distribuidora = "Warner"
 
 peli3.actores = actores3
-peli3.director = "Alex de la Iglesia"
+peli3.director = profe8
 peli3.guionista = "Antonio Perez"
 peli3.idioma = "español"
 peli3.plataforma = "televisión"
@@ -62,7 +61,7 @@ peli3.productora = "Atresmedia"
 peli3.distribuidora = "Atresmedia"
 
 peli4.actores = actores1
-peli4.director = "John Lasseter"
+peli4.director = profe2
 peli4.guionista = "Joel Cohen"
 peli4.idioma = "Inglés"
 peli4.plataforma = "Cine"
@@ -72,7 +71,7 @@ peli4.productora = "Pixar"
 peli4.distribuidora = "Disney"
 
 peli5.actores = actores2;
-peli5.director = "Fernando León";
+peli5.director = profe4
 peli5.guionista = "Ignacio del Moral";
 peli5.idioma = "Español";
 peli5.plataforma = "cine"; 
@@ -82,7 +81,7 @@ peli5.productora = "Paramount";
 peli5.distribuidora = "Paramount";
 
 peli6.actores = actores3;
-peli6.director = "Dani Boon";
+peli6.director = profe8
 peli6.guionista = "Antonio Pérez";
 peli6.idioma = "frnacés", 
 peli6.plataforma = "cine"; 
@@ -92,7 +91,7 @@ peli6.productora = "Pathé";
 peli6.distribuidora = "Pathé";
 
 peli7.actores = actores1;
-peli7.director = "Stanley Kubrick";
+peli7.director = profe2
 peli7.guionista = "Stanley Kubrick";
 peli7.idioma = "inglés" 
 peli7.plataforma = "cine"; 
@@ -102,7 +101,7 @@ peli7.productora = "Warner";
 peli7.distribuidora =  "Warner";    
     
 peli8.actores = actores2;
-peli8.director = "Pete Docter";
+peli8.director = profe4
 peli8.guionista = "Bob Peterson";
 peli8.idioma = "inglés";
 peli8.plataforma = "cine";
@@ -112,7 +111,7 @@ peli8.productora = "Disney";
 peli8.distribuidora = "Disney";
 
 peli9.actores = actores3;
-peli9.director = "Dennis Gansel";
+peli9.director = profe8
 peli9.guionista = "Dennis Gansel";
 peli9.idioma = "alemán";
 peli9.plataforma = "internet";
@@ -122,7 +121,7 @@ peli9.productora = "Rat Pack";
 peli9.distribuidora = "Constantin Film";
 
 peli10.actores = actores1;
-peli10.director = "Jean-Pierre Jeunet";
+peli10.director = profe2
 peli10.guionista = "Guillaume Laurant";
 peli10.idioma = "francés";
 peli10.plataforma = "cine";
@@ -166,10 +165,21 @@ peli10.mostrarDatos();*/
 
 var myJson = JSON.stringify(ieme1)
 
-var miVariable = require('fs');
-miVariable.writeFile("imdbBBDD.json", myJson, function(err, result) {
+var fs = require('fs');
+/*fs.writeFile("imdbBBDD.json", myJson, function(err, result) {
     if(err) {console.log('error', err)}
     else{console.log("Tu archivo se ha generado correctamente")};
-})
+})*/
+
+fs.writeFileSync("imdbBBDD.json", myJson)
 
 //Creando version 5
+
+let lectura = fs.readFileSync("imdbBBDD.json", "utf8")
+
+let ieme2 : Iemedebe = JSON.parse(lectura)
+
+
+
+
+console.log(ieme2.peliculas[0].titulo)
