@@ -1,3 +1,4 @@
+
 import {Profesional} from "./profesional"
 import {Pelicula} from "./pelicula"
 import {Iemedebe} from "./iemedebe"
@@ -70,7 +71,7 @@ peli4.nombreProtagonista = "Woody y Buzz"
 peli4.productora = "Pixar"
 peli4.distribuidora = "Disney"
 
-peli5.actores = actores2;
+    peli5.actores = actores2;
 	peli5.director = "Fernando León";
 	peli5.guionista = "Ignacio del Moral";
 	peli5.idioma = "Español";
@@ -84,7 +85,7 @@ peli5.actores = actores2;
 	peli6.director = "Dani Boon";
 	peli6.guionista = "Antonio Pérez";
 	peli6.idioma = "frnacés", 
-		peli6.plataforma = "cine"; 
+	peli6.plataforma = "cine"; 
 	peli6.esMCU = false;
 	peli6.nombreProtagonista = "Philippe";
 	peli6.productora = "Pathé";
@@ -101,8 +102,42 @@ peli5.actores = actores2;
     peli7.distribuidora =  "Warner";
     
 
+    
+peli8.actores = actores2;
+peli8.director = "Pete Docter";
+peli8.guionista = "Bob Peterson";
+peli8.idioma = "inglés";
+peli8.plataforma = "cine";
+peli8.esMCU = false;
+peli8.nombreProtagonista = "Carl";
+peli8.productora = "Disney";
+peli8.distribuidora = "Disney";
+
+peli9.actores = actores3;
+peli9.director = "Dennis Gansel";
+peli9.guionista = "Dennis Gansel";
+peli9.idioma = "alemán";
+peli9.plataforma = "internet";
+peli9.esMCU = false;
+peli9.nombreProtagonista = "Rainer";
+peli9.productora = "Rat Pack";
+peli9.distribuidora = "Constantin Film";
+
+peli10.actores = actores1;
+peli10.director = "Jean-Pierre Jeunet";
+peli10.guionista = "Guillaume Laurant";
+peli10.idioma = "francés";
+peli10.plataforma = "cine";
+peli10.esMCU = false;
+peli10.nombreProtagonista = "Amélie";
+peli10.productora = "Union";
+peli10.distribuidora = "Fox";
+    
+
+
 
 let ieme1: Iemedebe = new Iemedebe([peli3, peli5, peli7, peli10]);
+
 
 /*
 profe1.mostrarValor();
