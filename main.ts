@@ -50,7 +50,7 @@ peli2.nombreProtagonista = "Vitto Corleone"
 peli2.productora = "Warner"
 peli2.distribuidora = "Warner"
 
-peli3.actores = actores1
+peli3.actores = actores3
 peli3.director = "Alex de la Iglesia"
 peli3.guionista = "Antonio Perez"
 peli3.idioma = "español"
