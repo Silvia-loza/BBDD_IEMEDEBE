@@ -4,7 +4,7 @@ export class Pelicula{
     titulo: string;
     anyoEstreno: number;
     nacionalidad: string;
-    genero : string
+    genero: string;
     actores: Profesional[];
     director: string;
     guionista: string;
@@ -15,11 +15,11 @@ export class Pelicula{
     productora: string;
     distribuidora: string;
 
-    constructor(titulo: string, anyoEstreno: number, nacionalidad: string, genero : string) {
+    constructor(titulo: string, anyoEstreno: number, nacionalidad: string, genero:string) {
         this.titulo = titulo;
         this.anyoEstreno = anyoEstreno;
         this.nacionalidad = nacionalidad;
-        this.genero = genero
+        this.genero = genero;
     }
 
     mostrarDatos(){

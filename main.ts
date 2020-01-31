@@ -74,8 +74,13 @@ peli4.distribuidora = "Disney"
 
 let ieme1: Iemedebe = new Iemedebe([peli3, peli5, peli7, peli10]);
 
+<<<<<<< HEAD
+/*
+profe1.mostrarValor();
+=======
 
 /*profe1.mostrarValor();
+>>>>>>> f6481e2a065244b5addae1ee27e03a3198b3db25
 profe2.mostrarValor();
 profe3.mostrarValor();
 profe4.mostrarValor();
@@ -110,3 +115,19 @@ miVariable.writeFile("imdbBBDD.json", myJson, function(err, result) {
 })
 
 
+<<<<<<< HEAD
+console.log(ieme1);
+
+JSON.stringify(ieme1);
+var objetoJson: JSON = JSON.parse(localStorage.setItem(key, value));
+*/
+var objetoJson: any;
+objetoJson.writeFile("/main.json", function(eime1) {
+    if(ieme1) {
+        return console.log(ieme1)}
+
+    console.log("The file was saved!")
+    
+});
+=======
+>>>>>>> f6481e2a065244b5addae1ee27e03a3198b3db25
